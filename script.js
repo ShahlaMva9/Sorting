@@ -29,3 +29,29 @@
 //   console.log(sortedData);
 // }
 // insertionSorting(arr);
+
+//binary search
+
+// const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// function binarySearching(arr, target) {
+//   debugger;
+//   let startIndex = 0,
+//     endIndex = arr.length - 1;
+
+//   while (startIndex <= endIndex) {
+//     let middle = Math.floor((startIndex + endIndex) / 2);
+//     const middleValue = arr[middle];
+//     if (target === middleValue) {
+//       return middleValue;
+//     }
+//     if (target < middle) {
+//       endIndex = middle;
+//     }
+
+//     if (target > middle) {
+//       startIndex = middle;
+//     }
+//   }
+// }
+// console.log(binarySearching(arr, 3));
