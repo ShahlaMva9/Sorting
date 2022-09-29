@@ -55,3 +55,27 @@
 //   }
 // }
 // console.log(binarySearching(arr, 3));
+
+// const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// function jumpSorting(arr, step, target) {
+//   let start = 0;
+//   let end = arr.length - 1;
+//   let check = true;
+//   while (end <= end.length - 1 || check) {
+//     let middle = start + step;
+//     let middleValue = arr[middle];
+//     if (target === middleValue) {
+//       return middleValue;
+//     }
+//     if (target > middleValue) {
+//       start = middle;
+//     } else {
+//       end = middle;
+//       check = false;
+//       return arr.splice(start, end).find((el) => el === target);
+//     }
+//   }
+//   console.log(start, end);
+// }
+// console.log(jumpSorting(arr, 3, 4));
